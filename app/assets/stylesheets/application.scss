@@ -1,0 +1,27 @@
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+
+.navbar{
+  display: flex;
+  background-color: #a9a4a4;
+  color: #ffffff;
+  padding: 10px;
+  border: 50px;
+}
+.navbar a{
+  color: #ffffff;
+}
+
+.container {
+  margin-top: 20px;
+  background-color: #e0e8e8;
+  border-radius: 20px;
+
+}
+
+h2 a {
+  color:#18535d;
+}
+

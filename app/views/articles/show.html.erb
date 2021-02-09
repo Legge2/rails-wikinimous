@@ -1,0 +1,23 @@
+<div class="container">
+
+  <h1>MY Article</h1>
+
+ <h2>
+
+  <%= @article.title %>
+
+  <%= link_to(article_path(@article), method: :delete, data: { confirm: "ARE YOU SURE ?"}) do %>
+    <i class="fas fa-trash-alt"></i>
+  <% end %>
+
+  <%= link_to(edit_article_path) do %>
+    <i class="fas fa-pen"></i>
+  <% end %>
+
+ </h2>
+
+ <p>  <%= @article.content %></p>
+
+ <%= link_to "Back to all articles" , articles_path %>
+
+</div>
